@@ -58,4 +58,37 @@ ________________________________________
 
 10.	 What day between October 2019 to September 2020 had the highest media attacks associated with Daily Web Application Attacks? August 5,2020 ahd the highest media web app attacks. 
 
+Security 101 Homework: Cybersecurity Threat Landscape 
+Part 3: Verizon Data Breaches Investigation Report
+In this part, use the Verizon Data Breaches Investigation Report plus independent research to answer the below questions.
+______________________________________________________________________
+1.	What is the difference between an incident and a breach? An incident is the violation of an organizations security policy where a breach is a confirmed break in. 
+
+2.	What percentage of breaches were perpetrated by outside actors? What percentage were perpetrated by internal actors? Small business had 57% external and 44%internal threat actors and large businesses had 64% external and 36% internal threat actors. 
+
+3.	What percentage of breaches were perpetrated by organized crime? About 55% of breaches are perpetrated by organized criminal groups. https://www.sciencedirect.com/science/article/pii/S1361372320300592
+
+
+4.	What percentage of breaches were financially motivated? About 86% of breaches are financially motivated. https://today.tamu.edu/2021/05/13/heres-how-much-your-personal-information-is-worth-to-cybercriminals-and-what-they-do-with-it/#:~:text=Approximately%2086%25%20of%20data%20breaches,Verizon's%20annual%20data%20breach%20report.
+
+5.	Define the following (Additional research may be required outside of the report): 
+
+Denial of Service: Attacks intended to make networks and systems inaccessible. 
+
+
+Command and Control: Attacker uses commands to a system compromised by malware to receive stolen data from a network. https://www.trendmicro.com/vinfo/us/security/definition/command-and-control-server
+
+
+Backdoor: Malware type to avoid normal authentication procedures to gain access to a system and issue command and malware. 
+https://www.techslang.com/definition/backdoor-attack/
+
+Keylogger: Key monitoring software giving attacker access to personal data. It records everything the victim types. 
+https://home.sophos.com/en-us/security-news/2019/what-is-a-keylogger
+
+
+6.	What remains one of the most sought-after data types for hackers? Credentials is one of the most sought after data types by hackers. 
+
+7.	What was the percentage of breaches involving phishing? 36% of the breaches involved phishing attacks. 
+
+
 
