@@ -1,6 +1,6 @@
-Security 101 Homework: Cybersecurity Threat Landscape
-Part I: Crowdstrike 2021 Global Threat Report
-For Part 1 of your homework assignment, use the Crowdstrike 2021 Global Threat Report along with independent research to answer the following questions.
+# Security 101 Homework: Cybersecurity Threat Landscape  
+## Part I: Crowdstrike 2021 Global Threat Report  
+For Part 1 of your homework assignment, use the Crowdstrike 2021 Global Threat Report along with independent research to answer the following questions.  
 ________________________________________
 1.	What was the dominant ransomware family that impacted the healthcare industry in 2020?  Twisted Spider lead 2020 with ransomware attacks through their Maze and Egregor ransomware families with at least 26 infections.
 
@@ -34,8 +34,7 @@ ________________________________________
 	
 15.	What is the name of the malicious code used to exploit a vulnerability in the SolarWinds Orion IT management software? Sunburst is the name of the malicious code used to exploit SolarWinds Orion IT management software vulnerability. 
 
-Security 101 Homework: Cybersecurity Threat Landscape 
-Part 2: Akamai Security Year in Review 2020
+## Part 2: Akamai Security Year in Review 2020
 In this part, you should primarily use the Akamai Security Year in Review 2020 and Akamai State of the Internet/ Security along with independent research to answer the below questions.
 ________________________________________
 1.	What was the most vulnerable and targeted element of the gaming industry between October 2019 to September 2020? The most targeted and vulnerable element of the gaming industry was its players.
@@ -58,8 +57,7 @@ ________________________________________
 
 10.	 What day between October 2019 to September 2020 had the highest media attacks associated with Daily Web Application Attacks? August 5,2020 ahd the highest media web app attacks. 
 
-Security 101 Homework: Cybersecurity Threat Landscape 
-Part 3: Verizon Data Breaches Investigation Report
+## Part 3: Verizon Data Breaches Investigation Report
 In this part, use the Verizon Data Breaches Investigation Report plus independent research to answer the below questions.
 ______________________________________________________________________
 1.	What is the difference between an incident and a breach? An incident is the violation of an organizations security policy where a breach is a confirmed break in. 
