@@ -1,5 +1,5 @@
-Assessing Security Culture
-Step 1: Measure and Set Goals
+# Assessing Security Culture
+## Step 1: Measure and Set Goals
 1. A) Data Theft commonly occurs due to lost or stolen devices. Passwords may not be secure
 enough on their personal device giving hackers access to the company's information.
 B) Malware can be unknowingly downloaded via a game on their phone or personal email PDF
@@ -15,7 +15,9 @@ and wipe phones, track devices if lost or stolen, and separate personal and comp
 accessing the system and have the Management software installed on the devices.
 4. The goal of SilverCorp is to have ALL employees have the software installed on the devices in
 order to access information.
-Step 2: 1) Product Owner would be needed to ensure execution of the Puppet installation or MDM
+
+## Step 2: Involve The Right people
+ 1) Product Owner would be needed to ensure execution of the Puppet installation or MDM
 software across all devices. They would also coordinate with everyone the install and writing of the
 program.
 2) Dev ops team would be needed to write the program. They would also hand off or insert the
@@ -25,7 +27,8 @@ follow up of BYOD devices on the network having the Management software installe
 4) Firewall team would be needed to grant access to the Mobile management software.
 5) Security developers would need to deploy the puppet program and ensure proper execution
 of the software and accessibility. 
-Step 3:
+
+## Step 3: Training Plan
 The format of the training will be composed of online learning. More specific topics will be
 targeted with remote online learning courses. Every new employee who joins the company will
 have to complete the courses as a mandatory requirement with their initial onboarding. Some
