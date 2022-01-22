@@ -44,7 +44,7 @@ Save and submit the completed file for your homework submission.
 2. Ensure that only the `admin` has general sudo access.
 
     - Command to add `admin` to the `sudo` group:
-**sudo usermod -aG sudo admin
+**sudo usermod -aG sudo admin**
 ### Step 3: Create User Group and Collaborative Folder
 
 1. Add an `engineers` group to the system.
@@ -89,6 +89,6 @@ Save and submit the completed file for your homework submission.
 **sudo chkrootkit -x**
 4. Provide a report from the chkrootkit output on what can be done to harden the system.
     - Screenshot of end of sample output:
-**![chkrootkit hardening](chkrootkit hardening.PNG)
+**![chkrootkit hardening](https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/chkrootkit%20hardening.PNG)**
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
