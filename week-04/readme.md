@@ -89,6 +89,6 @@ Save and submit the completed file for your homework submission.
 **sudo chkrootkit -x**
 4. Provide a report from the chkrootkit output on what can be done to harden the system.
     - Screenshot of end of sample output:
-**![chkrootkit hardening](https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/chkrootkit%20hardening.PNG)**
+**![chkrootkit hardening](https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-04/screenshots/chkrootkit%20hardening.PNG)**
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
