@@ -75,13 +75,14 @@ Save and submit the completed file for your homework submission.
 
   **create**
 
-  **# do not rotate empty logs*
+  **# do not rotate empty logs**
 
   **notifempty**
 
   **# uncomment this if you want your log files compressed**
 
   **compress**
+
   **delaycompress**
 
     [Your logrotate scheme edits here]
