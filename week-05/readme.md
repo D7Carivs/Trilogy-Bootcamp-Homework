@@ -34,7 +34,7 @@ Save and submit the completed file for your homework submission.
 ### Step 3: Write Basic Bash Scripts
 
 1. Brace expansion command to create the four subdirectories:
-**mkdir ~/backups/{freemem,diskuse,openlist,freedisk}
+**mkdir ~/backups/{freemem,diskuse,openlist,freedisk}**
 2. Paste your `system.sh` script edits below:
 
     ```bash
@@ -63,6 +63,7 @@ Save and submit the completed file for your homework submission.
     Configure a log rotation scheme that backs up authentication messages to the `/var/log/auth.log`.
 
     - Add your config file edits below:
+    - 
   **# rotate log files weekly**
 
   **weekly**
