@@ -34,7 +34,7 @@ Save and submit the completed file for your homework submission.
 ### Step 3: Write Basic Bash Scripts
 
 1. Brace expansion command to create the four subdirectories:
-**mkdir ~ls /backups/{freemem,diskuse,openlist,freedisk}
+**mkdir ~/backups/{freemem,diskuse,openlist,freedisk}
 2. Paste your `system.sh` script edits below:
 
     ```bash
