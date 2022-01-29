@@ -66,15 +66,19 @@ Save and submit the completed file for your homework submission.
   **# rotate log files weekly**
 
   **weekly**
+
   **# keep 7 weeks worth of backlogs**
 
   **rotate 7**
+
   **# create new (empty) log files after rotating old ones**
 
   **create**
+
   **# do not rotate empty logs*
 
   **notifempty**
+
   **# uncomment this if you want your log files compressed**
 
   **compress**
