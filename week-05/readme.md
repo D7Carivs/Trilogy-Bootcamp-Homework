@@ -9,11 +9,9 @@ Save and submit the completed file for your homework submission.
 ### Step 1: Create, Extract, Compress, and Manage tar Backup Archives
 
 1. Command to **extract** the "TarDocs.tar" archive to the current directory:
-1. 
 **tar -xvf TarDocs.tar .**
 
 1. Command to **create** the "Javaless_Doc.tar" archive from the "TarDocs/" directory, while excluding the "TarDocs/Documents"
-1. 
 **sudo tar -cvvWf Javaless_Doc.tar --exclude=TarDocs/Documents/Java ~/Projects** 
 1. Command to ensure `Java/` is not in the new `Javaless_Docs.tar` archive:
 **tar -tvf Javaless_Docs.tar | grep Java**
@@ -50,7 +48,8 @@ Save and submit the completed file for your homework submission.
 **chmod +x system.sh**   
 **Optional**
 - Commands to test the script and confirm its execution:
-**sudo ./system.sh** 
+**sudo ./system.sh**
+ 
 **Bonus**
 - Command to copy `system` to system-wide cron directory:
  **crontab -e**
@@ -65,14 +64,19 @@ Save and submit the completed file for your homework submission.
 
     - Add your config file edits below:
   **# rotate log files weekly**
+
   **weekly**
   **# keep 7 weeks worth of backlogs**
+
   **rotate 7**
   **# create new (empty) log files after rotating old ones**
+
   **create**
   **# do not rotate empty logs*
+
   **notifempty**
   **# uncomment this if you want your log files compressed**
+
   **compress**
   **delaycompress**
 
