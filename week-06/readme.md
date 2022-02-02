@@ -40,7 +40,7 @@ Save and submit the completed file for your homework submission.
 
 **Step 3: Testing Your Configuration Update**
 1. Restart the SSH service:
-    - **systemctl restart sshd**
+    - **systemctl restart ssh**
 
 2. Exit the `root` account:
     - **su sysd** 
