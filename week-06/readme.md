@@ -62,7 +62,7 @@ Save and submit the completed file for your homework submission.
 
     - **sudo su**
     - **john /etc/shadow**
-    - **passwords(user=passwd): stallman=computer, babbage=freedom, mitnik=trustno1, lovelace=dragon, turing=lakers, sysadmin=passw0rd, root=passwd, student=Goodluck!,sysd=passwerd**
+    - **passwords(user=passwd): stallman=computer, babbage=freedom, mitnik=trustno1, lovelace=dragon, turing=lakers, sysadmin=passw0rd, root=passwd, student=Goodluck!,sysd=pass**
 ---
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
