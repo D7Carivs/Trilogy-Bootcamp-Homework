@@ -240,7 +240,7 @@ Your Mission:
   
   - Take a screen shot of the results.
   
-         https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-09/screenshot%20starwars.PNG
+         https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-09/screenshot%20starwars.jpeg
        
   
 ### Conclusion
