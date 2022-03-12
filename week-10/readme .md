@@ -66,6 +66,8 @@ In order to solve each riddle, you will need to apply cryptographic concepts cov
 
 Good luck and act fast as the Nakatomi Patients are counting on you!
 
+**Screenshot: https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-10/Final%20Riddle.PNG**
+
 
 ---
 
