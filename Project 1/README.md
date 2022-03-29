@@ -2,11 +2,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/Project%201/ELK%20Stack%20Topology.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+  - We created an ansible playbook to automate the ELK install so to not have to manually install it on the server. To use the playbook, log into the Jump Box and issue: ansible-playbook install_elk.yml. It will run the install_elk.yml on the elk host.
 
 This document contains the following details:
 - Description of the Topologu
