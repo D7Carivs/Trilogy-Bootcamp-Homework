@@ -30,29 +30,38 @@ Answer the following questions about the HTTP request and response process.
 - The 3 parts of the HTTP response are Status line, Header, and Body.
 
 5. Which number class of status codes represents errors?
+- The HTTP status codes of the 4th Class represents client errors. The HTTP status codes of the 5th class represent server errors. 
 
 6. What are the two most common request methods that a security professional will encounter?
+- The GET and POST requests are the 2 most common methods that a security professional will encounter. 
 
 7. Which type of HTTP request method is used for sending data?
+-  The POST HTTP request method is used for sending data
 
 8. Which part of an HTTP request contains the data being sent to the server?
+-  The body contains the data in an HTTP request being sent to the server.
 
 9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
-
+- The browser receives the information of the web code in the body.
 #### Using curl
 
 Answer the following questions about `curl`:
 
 10. What are the advantages of using `curl` over the browser?
+- Advantage of curl of the browser are: HTTP Requests/Responses can be managed in a repeatable and prgrammable way, automate test HTTP requests, 
+  can support multiple protocols.
 
 11. Which `curl` option is used to change the request method?
+- -X is used to change request method
 
 12. Which `curl` option is used to set request headers?
+- -H is used to set request headers. 
 
 13. Which `curl` option is used to view the response header?
+- -v is used to view response header.
 
 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
-
+- The options method could be used by an attacker to figure out HTTP requests an HTTP server will accept.
 #### Sessions and Cookies
 
 Recall that HTTP servers need to be able to recognize clients from one another. They do this through sessions and cookies.
@@ -62,6 +71,7 @@ Answer the following questions about sessions and cookies:
 15. Which response header sends a cookie to the client?
 
     ```HTTP
+    Set-Cookies
     HTTP/1.1 200 OK
     Content-type: text/html
     Set-Cookie: cart=Bob
@@ -73,6 +83,7 @@ Answer the following questions about sessions and cookies:
     GET /cart HTTP/1.1
     Host: www.example.org
     Cookie: cart=Bob
+    'Connection: Keep-alive'
     ```
 
 #### Example HTTP Requests and Responses
@@ -95,12 +106,16 @@ username=Barbara&password=password
 ```
 
 17. What is the request method?
+- Post
 
 18. Which header expresses the client's preference for an encrypted response?
+- Upgrade-Insecure-Requests: 1
 
 19. Does the request have a user session associated with it?
+- The request does not have a session associated with it. 
 
 20. What kind of data is being sent from this request body?
+- Login credentials are being requested. 
 
 **HTTP Response**
 
@@ -122,15 +137,19 @@ X-XSS-Protection: 1; mode=block
 ```
 
 21. What is the response status code?
+- Response status code is 200 
 
 22. What web server is handling this HTTP response?
+- Apache Web server is handling the HTTP response. 
 
 23. Does this response have a user session associated to it?
+- This response has session ID=5 associated with it.
 
 24. What kind of content is likely to be in the [page content] response body?
+- Page configuration content is likely in the response body.
 
 25. If your class covered security headers, what security request headers have been included?
-
+- Strict-Transport-Security: max-age=31536000; includeSubDomains
 #### Monoliths and Microservices
 
 Answer the following questions about monoliths and microservices:
