@@ -128,9 +128,9 @@ When complete, submit the file on BCS.
 
 4. Now that you have determined that Replicants new application is vulnerable to command injection, you are tasked with using the dot-dot-slash method to design two payloads that will display the contents of the following files:
    
-   - `/etc/passwd`
+   - `%20/etc/passwd`
    
-   - `/etc/hosts`
+   - `%20/etc/hosts` "Use %20 as a space instead of the ../ method so can use absolute path" 
   
    **Hint:** Try testing out a command directly on the command line to help design your payload.
 
