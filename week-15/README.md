@@ -107,7 +107,12 @@ When complete, submit the file on BCS.
      
      - This process is no different than if we went to the command line and typed that same command: `ping 8.8.8.8`
 
-       ![wd_hw3](Images/wd_hw3.png)
+   - Open second terminal window
+   - type the following commands
+   - docker exec -it dvwa bash
+   - ping 8.8.8.8
+
+      https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20line%20ping%208.8.8.8.PNG
 
 3. Test if we can manipulate the input to cause an unintended result.
 
@@ -135,10 +140,15 @@ When complete, submit the file on BCS.
 
 5. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
     
+   - The first screen shot is /etc/pwd and the second is /etc/hosts
+
     https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20injection%20passwd%20step%203.PNG
 
-    
+    https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/%2520%20hosts%20step%205.PNG
 
+  **Recommended mitigation strategies:**
+  - Restrict web server account accessibility by only allowing single numerical values as inputs
+  - Restrict user input on database queries
 ### Web Application 2: *A Brute Force to Be Reckoned With*
 
 1. Complete the following steps to set up the activity. 
