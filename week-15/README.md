@@ -93,7 +93,7 @@ When complete, submit the file on BCS.
           
           - Password: `password`
 
-    </details>
+    < Images/wd_hw1.png>
 
 
 2. This page is a new web application built by Replicants in order to enable their customers to `ping` an IP address. The web page will return the results of the ping command back to the user.
