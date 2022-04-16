@@ -157,7 +157,7 @@ When complete, submit the file on BCS.
   
     -  The page should look like the following:
 
-       ![wd_hw5](Images/wd_hw5.png)
+      https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20brute%20force/bwapp%20brute%20force.PNG 
 
     - Click "here" to install bWapp. (See the arrow in the previous screenshot.) 
     
@@ -167,18 +167,18 @@ When complete, submit the file on BCS.
 
       - Password: `bug`
 
-       ![wd_hw6](Images/wd_hw6.png)
+       https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20brute%20force/bWAPP%20login.PNG
 
  
     - This will take you to the following page:
 
-      ![wd_hw7](Images/wd_hw7.png)
+      https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20brute%20force/portal%20bWAPP.PNG
 
     - To access the application where we will perform our activity, enter in the following URL: <http://192.168.13.35/ba_insecure_login_1.php>
 
       - This will take you to the following page:
 
-        ![wd_hw8](Images/wd_hw8.png)
+        https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20brute%20force/insecure%20login%20bWAPP.PNG
 
 2. This page is an administrative web application that serves as a simple login page. An administrator enters their username and password and selects Login.
      
