@@ -61,8 +61,7 @@ When complete, submit the file on BCS.
       - Alternatively, access the webpage directly at this page: <http://192.168.13.25/vulnerabilities/exec/>
       
       - The web page should look like the following:
-
-        ![wd_hw1](Images/wd_hw1.png)
+      https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/dvwa%20command%20inj%20step%201.PNG
 
    **Note:** If you have any issues accessing this webpage,  refer to the Activity Setup steps we completed in the activity `06_SQL_Injection` on Day 1 of this unit. 
 
@@ -93,7 +92,7 @@ When complete, submit the file on BCS.
           
           - Password: `password`
 
-    < Images/wd_hw1.png>
+    <week-15/screenshots/dvwa command inj step 1.PNG >
 
 
 2. This page is a new web application built by Replicants in order to enable their customers to `ping` an IP address. The web page will return the results of the ping command back to the user.
@@ -102,7 +101,7 @@ When complete, submit the file on BCS.
 
    - Test the webpage by entering the IP address `8.8.8.8`. Press Submit to see the results display on the web application.
 
-     ![wd_hw2](Images/wd_hw2.png)
+     ![wd_hw2](week-15/screenshots/command injection ping step 2.PNG)
 
      - Behind the scenes, when you select Submit, the IP you type in the field is *injected* into a command that is run against the Replicants webserver. The specific command that ran on the webserver is `ping <IP>` and `8.8.8.8` is the field value that is injected into that command.
      
@@ -122,7 +121,7 @@ When complete, submit the file on BCS.
   
    - Press Enter. Note the ping results are the results of the second `pwd` command:
 
-     ![wd_hw4](Images/wd_hw4.png)
+     ![wd_hw4](week-15/screenshots/command injection passwd step 3.PNG)
 
     This type of injection attack is called **Command Injection**, and it is dependent on the web application taking user input to run a command against an operating system.
 
