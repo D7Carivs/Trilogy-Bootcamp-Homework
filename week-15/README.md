@@ -92,7 +92,7 @@ When complete, submit the file on BCS.
           
           - Password: `password`
 
-    <week-15/screenshots/dvwa command inj step 1.PNG >
+            https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/Command%20injection%20webpage%20set%20up%20step%201.PNG
 
 
 2. This page is a new web application built by Replicants in order to enable their customers to `ping` an IP address. The web page will return the results of the ping command back to the user.
@@ -101,7 +101,7 @@ When complete, submit the file on BCS.
 
    - Test the webpage by entering the IP address `8.8.8.8`. Press Submit to see the results display on the web application.
 
-     ![wd_hw2](week-15/screenshots/command injection ping step 2.PNG)
+     https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20injection%20ping%20step%202.PNG
 
      - Behind the scenes, when you select Submit, the IP you type in the field is *injected* into a command that is run against the Replicants webserver. The specific command that ran on the webserver is `ping <IP>` and `8.8.8.8` is the field value that is injected into that command.
      
@@ -121,7 +121,7 @@ When complete, submit the file on BCS.
   
    - Press Enter. Note the ping results are the results of the second `pwd` command:
 
-     ![wd_hw4](week-15/screenshots/command injection passwd step 3.PNG)
+     https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20injection%20passwd%20step%203.PNG
 
     This type of injection attack is called **Command Injection**, and it is dependent on the web application taking user input to run a command against an operating system.
 
@@ -134,7 +134,10 @@ When complete, submit the file on BCS.
    **Hint:** Try testing out a command directly on the command line to help design your payload.
 
 5. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
+    
+    https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20injection%20passwd%20step%203.PNG
 
+    
 
 ### Web Application 2: *A Brute Force to Be Reckoned With*
 
