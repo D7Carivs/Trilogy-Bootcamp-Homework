@@ -61,7 +61,7 @@ When complete, submit the file on BCS.
       - Alternatively, access the webpage directly at this page: <http://192.168.13.25/vulnerabilities/exec/>
       
       - The web page should look like the following:
-      https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/dvwa%20command%20inj%20step%201.PNG
+      **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/dvwa%20command%20inj%20step%201.PNG**
 
    **Note:** If you have any issues accessing this webpage,  refer to the Activity Setup steps we completed in the activity `06_SQL_Injection` on Day 1 of this unit. 
 
@@ -92,7 +92,7 @@ When complete, submit the file on BCS.
           
           - Password: `password`
 
-            https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/Command%20injection%20webpage%20set%20up%20step%201.PNG
+            **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/Command%20injection%20webpage%20set%20up%20step%201.PNG**
 
 
 2. This page is a new web application built by Replicants in order to enable their customers to `ping` an IP address. The web page will return the results of the ping command back to the user.
@@ -101,7 +101,7 @@ When complete, submit the file on BCS.
 
    - Test the webpage by entering the IP address `8.8.8.8`. Press Submit to see the results display on the web application.
 
-     https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20injection%20ping%20step%202.PNG
+     **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20injection%20ping%20step%202.PNG**
 
      - Behind the scenes, when you select Submit, the IP you type in the field is *injected* into a command that is run against the Replicants webserver. The specific command that ran on the webserver is `ping <IP>` and `8.8.8.8` is the field value that is injected into that command.
      
@@ -112,7 +112,7 @@ When complete, submit the file on BCS.
    - docker exec -it dvwa bash
    - ping 8.8.8.8
 
-      https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20line%20ping%208.8.8.8.PNG
+      **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20line%20ping%208.8.8.8.PNG**
 
 3. Test if we can manipulate the input to cause an unintended result.
 
@@ -126,7 +126,7 @@ When complete, submit the file on BCS.
   
    - Press Enter. Note the ping results are the results of the second `pwd` command:
 
-     https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20injection%20passwd%20step%203.PNG
+     **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20injection%20passwd%20step%203.PNG**
 
     This type of injection attack is called **Command Injection**, and it is dependent on the web application taking user input to run a command against an operating system.
 
@@ -142,9 +142,9 @@ When complete, submit the file on BCS.
     
    - The first screen shot is /etc/pwd and the second is /etc/hosts
 
-    https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20injection%20passwd%20step%203.PNG
+   **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/command%20injection%20passwd%20step%203.PNG**
 
-    https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/%2520%20hosts%20step%205.PNG
+    **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots/%2520%20hosts%20step%205.PNG**
 
   **Recommended mitigation strategies:**
   - Restrict web server account accessibility by only allowing single numerical values as inputs
@@ -157,7 +157,7 @@ When complete, submit the file on BCS.
   
     -  The page should look like the following:
 
-      https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20brute%20force/bwapp%20brute%20force.PNG 
+      **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20brute%20force/bwapp%20brute%20force.PNG** 
 
     - Click "here" to install bWapp. (See the arrow in the previous screenshot.) 
     
@@ -167,18 +167,18 @@ When complete, submit the file on BCS.
 
       - Password: `bug`
 
-       https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20brute%20force/bWAPP%20login.PNG
+       **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20brute%20force/bWAPP%20login.PNG**
 
  
     - This will take you to the following page:
 
-      https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20brute%20force/portal%20bWAPP.PNG
+      **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20brute%20force/portal%20bWAPP.PNG**
 
     - To access the application where we will perform our activity, enter in the following URL: <http://192.168.13.35/ba_insecure_login_1.php>
 
       - This will take you to the following page:
 
-        https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20brute%20force/insecure%20login%20bWAPP.PNG
+        **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20brute%20force/insecure%20login%20bWAPP.PNG**
 
 2. This page is an administrative web application that serves as a simple login page. An administrator enters their username and password and selects Login.
      
@@ -215,18 +215,18 @@ When complete, submit the file on BCS.
    
    - To access the BeEF GUI, right-click the first URL and select Open Link.
 
-     ![wd_hw10](Images/wd_hw10.png)
+     **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20BeEF/Beef%2010.PNG**
 
    - When the BeEF webpage opens, login with the following credentials:
      - Username: `beef`
      
      - Password: `feeb`
 
-     ![wd_hw11](Images/wd_hw11.png)
+     **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20BeEF/Beef%2011.PNG**
 
    - You have successfully completed the setup when you have reached the `BeEF Control Panel` shown in the image below:
 
-     ![wd_hw12](Images/wd_hw12.png)
+     **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20BeEF/Beef%2012.PNG**
 
 2. The Browser Exploitation Framework (BeEF) is a practical client-side attack tool that exploits vulnerabilities of web browsers to assess the security posture of a target.      
 
@@ -247,11 +247,11 @@ When complete, submit the file on BCS.
     
     - Click the second "here" to access the advanced version.  
      
-       ![wd_hw13](Images/wd_hw13.png)
+       **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20BeEF/beef%2013.PNG**
 
     - This will open the following website, which has been infected with a BeEF hook.
 
-       ![wd_hw14](Images/wd_hw14.png)
+       **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20BeEF/beef%2014.PNG**
 
     - Note that once you have pulled up this infected webpage, your browser has now been hooked!
 
@@ -261,7 +261,7 @@ When complete, submit the file on BCS.
 
       - Click on the browser `127.0.0.1` as indicated in the screenshot below.
 
-        ![wd_hw15](Images/wd_hw15.png)
+        **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20BeEF/beef%2015.PNG**
 
       - Under the Details tab, we can see information about the infected browser. 
 
@@ -275,11 +275,11 @@ When complete, submit the file on BCS.
      
    - To access this exploit, select Google Phishing under Social Engineering.
 
-       ![wd_hw16](Images/wd_hw16.png)
+       **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20BeEF/beef%2016.PNG**
 
    - After selecting this option, the description of the exploit and any dependencies or options are displayed in the panel on the right.
 
-       ![wd_hw17](Images/wd_hw17.png)
+       **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20BeEF/beef%2017.PNG**
 
    - To launch the exploit, select Execute in the bottom right corner.
 
@@ -291,11 +291,11 @@ When complete, submit the file on BCS.
      - Username: `hackeruser`
      - Password: `hackerpass`
 
-       ![wd_hw18](Images/wd_hw18.png)
+       **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20BeEF/beef%2018.PNG**
 
    - Return to the BeEF control panel. In the center panel, select the first option. Note that now on the right panel, the username and password have been captured by the attacker.
 
-     ![wd_hw19](Images/wd_hw19.png)
+     **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-15/screenshots%20BeEF/beef%2019.PNG**
 
 5. Now that you know how to use the BeEF tool, you'll use it to test the Replicants web application. You are tasked with using a stored XSS attack to inject a BeEF hook into Replicants' main website.
 
