@@ -199,7 +199,8 @@ When complete, submit the file on BCS.
    - Hint: Refer back to the Burp Intruder activity `10_Brute_Force` from Day 3 for guidance.
  
 4. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
-
+ 
+   - Mitigation Strategies could include complex passwords, multi-factor authentication and enable lock out after a number of failed attempts. 
 ### Web Application 3: *Where's the BeEF?*
 
 1. Complete the following to set up the activity. 
@@ -317,6 +318,6 @@ When complete, submit the file on BCS.
     
 6. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
 
----
+    - To Mitigate against XSS you could add server side input validation to deny scripts as inputs and use HTTP response headers to prevent malicious scripts from running. 
 
 © 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
