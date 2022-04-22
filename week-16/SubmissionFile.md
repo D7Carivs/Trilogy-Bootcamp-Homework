@@ -72,12 +72,17 @@ Your client has asked that you help identify any vulnerabilities with their file
   1. What is the vulnerability:
      **Zenmap found the following vulnerability:**
 
+      https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-16/enum%20screenshots/smb-enum-shares-1.PNG
 
+      https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-16/enum%20screenshots/smb-enum-shares.PNG
 
 
   2. Why is it dangerous:
-
-  3. What mitigation strategies can you recommendations for the client to protect their server:
+  
+     - It is dangerous because it leaves the opportunity open for malicious actor to send bytes on port 21 to open a backdoor on port 6200 and run as root. 
+  1. What mitigation strategies can you recommendations for the client to protect their server:
+  
+     -A patch would be a mitigation strategy to eliminate the vulnerability to the open backdoor attack. 
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
