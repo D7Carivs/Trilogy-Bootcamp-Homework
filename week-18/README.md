@@ -68,6 +68,12 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
     - Based on the report created, what is the approximate date and time of the attack?
     - How long did it take your systems to recover?
+    
+ 
+    - **Based on the information retrieved from this report, it appears the attack lasted approximately 8 hours. It started on 2020-02-23 at 14:30:00 and the system recovered at 22:30:00 on 2020-02-23.**
+    
+     
+    - **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-18/screenshots/Table%20report.PNG**
 
 Submit a screen shot of your report and the answer to the questions above.
  
