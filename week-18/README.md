@@ -94,6 +94,10 @@ Submit a screen shot of your report and the answer to the questions above.
       
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
+  *https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/tree/main/week-18/screenshots/Critical%20Alert* 
+  - 
+  - 
+  
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
 
 
