@@ -94,9 +94,9 @@ Submit a screen shot of your report and the answer to the questions above.
       
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
-  *https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/tree/main/week-18/screenshots/Critical%20Alert* 
-  - 
-  - 
+ - **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/tree/main/week-18/screenshots/Critical%20Alert** 
+   
+  - **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-18/screenshots/Critical%20Alert%20(6).PNG**
   
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
 
@@ -112,12 +112,11 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
    - [Admin Logins](resources/Administrator_logs.csv)
 
 2. When did the brute force attack occur?
-   - Hints:
-     - Look for the `name` field to find failed logins.
-     - Note the attack lasted several hours.
+   - **Based off the spike increase in the report, a brute force attack occured on February 21,2020 from approximately 9am to 1pm.**
 
       
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
+   - **Based on the information in the data, the baseline is approximately 15-20 failed log in attempts with an occasional increase to 34 at max bad log in attempts. I would set a baseline threshold of 35 bad login attempts per day per hour to minimize and false positives.**  
 
 4. Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered. 
 
