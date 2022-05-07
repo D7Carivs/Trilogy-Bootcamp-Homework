@@ -118,7 +118,10 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
    - **Based on the information in the data, the baseline is approximately 15-20 failed log in attempts with an occasional increase to 34 at max bad log in attempts. I would set a baseline threshold of 35 bad login attempts per day per hour to minimize and false positives.**  
 
-4. Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered. 
+4. Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered.
+   - **https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/tree/main/week-18/screenshots/Brute%20Force%20Alert**
+   -**https://github.com/D7Carivs/Trilogy-Bootcamp-Homework/blob/main/week-18/screenshots/Brute%20Force%20Alert%20Verification.PNG** 
+  
 
 Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
  
