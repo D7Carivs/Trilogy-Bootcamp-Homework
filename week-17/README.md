@@ -58,7 +58,7 @@ You've been provided full access to the network and are getting ping responses f
 
     - Run the Nmap command that performs a service and version scan against the target.
 
-      > Answer: nmap -sV 192.168.0.20
+      > Answer: nmap -sS -sV -O 192.168.0.20
  
  
 2. From the previous step, we see that the Icecast service is running. Let's start by attacking that service. Search for any Icecast exploits:
@@ -114,7 +114,7 @@ You've been provided full access to the network and are getting ping responses f
     - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
 
 
-      > Answer: download c:\Users\IEUser\Documents\Drinks.recipe.txt
+      > Answer: download 'c:\Users\IEUser\Documents\Drinks.recipe.txt'
  
 
 8. You can also use Meterpreter's local exploit suggester to find possible exploits.
